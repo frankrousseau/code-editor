@@ -60,7 +60,7 @@
     }],
 
     "scripts": {
-        "start": "bash bin/cloud9.sh",
+        "start": "node server.js \"Linux 64 bit\" -a x-www-browser",
         "build-debug": "node ./scripts/build-debug",
         "build-packed": "node ./scripts/build-packed",
         "postinstall": "make ace"
